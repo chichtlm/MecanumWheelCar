@@ -1,0 +1,9 @@
+menu "Algorithm function"
+
+config SUPPORT_PID
+	bool "Using pid"
+	default y
+	help
+		if use pid  chois 'y'
+		
+endmenu

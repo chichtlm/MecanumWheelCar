@@ -1,0 +1,88 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: ¦ÌVision V5.20.0.0
+Copyright (C) 2016 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: r t, e, LIC=50DAR-K0DTV-24SSS-L3IWP-GQ96C-CZ0JF
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Professional  Version: 5.20
+Toolchain Path:  d:\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 2 (build 183)
+Assembler:       Armasm.exe V5.06 update 2 (build 183)
+Linker/Locator:  ArmLink.exe V5.06 update 2 (build 183)
+Library Manager: ArmAr.exe V5.06 update 2 (build 183)
+Hex Converter:   FromElf.exe V5.06 update 2 (build 183)
+CPU DLL:         SARMCM3.DLL V5.20
+Dialog DLL:      DCM.DLL V1.13.7.0
+Target DLL:      Segger\JL2CM3.dll V2.99.20.0
+Dialog DLL:      TCM.DLL V1.14.9.0
+ 
+<h2>Project:</h2>
+F:\gitHub_project\MWC\MecanumWheelCar\Libraries\STM32F1XX_HAL_NEW\103RCT6_CubeMX\MDK-ARM\103RCT6_CUBE.uvprojx
+Project File Date:  11/06/2019
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 2 (build 183)', folder: 'd:\Keil_v5\ARM\ARMCC\Bin'
+Build target '103RCT6_CUBE'
+assembling startup_stm32f103xe.s...
+compiling stm32f1xx_it.c...
+compiling stm32f1xx_hal_gpio_ex.c...
+compiling stm32f1xx_hal_adc_ex.c...
+compiling stm32f1xx_hal_uart.c...
+compiling stm32f1xx_hal_adc.c...
+compiling stm32f1xx_hal_tim_ex.c...
+compiling stm32f1xx_hal_msp.c...
+compiling main.c...
+../Src/main.c(786): warning:  #940-D: missing return statement at end of non-void function "fputc"
+  }
+../Src/main.c(671): warning:  #177-D: function "usart_send" was declared but never referenced
+  static void usart_send(void)
+../Src/main.c(764): warning:  #177-D: function "motor_1_reverse" was declared but never referenced
+  static void motor_1_reverse(void)
+../Src/main.c(773): warning:  #177-D: function "motor_1_brake" was declared but never referenced
+  static void motor_1_brake(void)
+../Src/main.c(691): warning:  #177-D: variable "timer_cnt" was declared but never referenced
+  static uint16_t timer_cnt = 0;
+../Src/main.c: 5 warnings, 0 errors
+compiling stm32f1xx_hal_spi.c...
+compiling stm32f1xx_hal_tim.c...
+compiling stm32f1xx_hal_i2c.c...
+compiling stm32f1xx_hal_pwr.c...
+compiling stm32f1xx_hal.c...
+compiling stm32f1xx_hal_dma.c...
+compiling system_stm32f1xx.c...
+compiling stm32f1xx_hal_rcc_ex.c...
+compiling stm32f1xx_hal_flash_ex.c...
+compiling stm32f1xx_hal_flash.c...
+compiling stm32f1xx_hal_cortex.c...
+compiling stm32f1xx_hal_gpio.c...
+compiling stm32f1xx_hal_exti.c...
+compiling stm32f1xx_hal_rcc.c...
+linking...
+Program Size: Code=9628 RO-data=360 RW-data=40 ZI-data=1568  
+FromELF: creating hex file...
+"103RCT6_CUBE\103RCT6_CUBE.axf" - 0 Error(s), 5 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.5.5.1.pack
+                ARM::CMSIS:CORE:5.2.0
+                CMSIS (Cortex Microcontroller Software Interface Standard)
+   * Component: CORE Version: 5.2.0
+
+<h2>Collection of Component include folders:</h2>
+  F:\gitHub_project\MWC\MecanumWheelCar\Libraries\STM32F1XX_HAL_NEW\103RCT6_CubeMX\MDK-ARM\RTE
+  d:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include
+  d:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE:5.2.0
+Build Time Elapsed:  00:00:09
+</pre>
+</body>
+</html>

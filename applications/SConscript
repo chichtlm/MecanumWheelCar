@@ -1,0 +1,22 @@
+Import('RTT_ROOT')
+Import('rtconfig')
+from building import *
+
+cwd = GetCurrentDir()
+
+#src = Glob('*.c')
+
+src = Split("""
+	main.c
+	car_task.c
+	motor.c
+	pid.c
+	ps2.c
+	wheel.c
+""")
+
+CPPPATH = [cwd, str(Dir('#'))]
+
+group = DefineGroup('Applications', src, depend = [''], CPPPATH = CPPPATH)
+
+Return('group')
